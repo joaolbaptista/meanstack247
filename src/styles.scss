@@ -1,1 +1,77 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+/** FONTS **/ 
+
+@font-face {
+	font-family: 'alwyn-light';
+	src: url('https://cdn2.hubspot.net/hubfs/3835549/Website%202017/Fonts/alwynnew/alwynnew-lt-webfont.woff2') format('woff2'),
+	  url('https://cdn2.hubspot.net/hubfs/3835549/Website%202017/Fonts/alwynnew/alwynnew-lt-webfont.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'alwyn';
+	src: url('https://cdn2.hubspot.net/hubfs/3835549/Website%202017/Fonts/alwynnew/alwynnew-th-webfont.woff2') format('woff2'),
+	  url('https://cdn2.hubspot.net/hubfs/3835549/Website%202017/Fonts/alwynnew/alwynnew-th-webfont.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'alwyn';
+	src: url('https://cdn2.hubspot.net/hubfs/3835549/Website%202017/Fonts/alwynnew/alwynnew-md-webfont.woff2') format('woff2'),
+	  url('https://cdn2.hubspot.net/hubfs/3835549/Website%202017/Fonts/alwynnew/alwynnew-md-webfont.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'alwyn-reg';
+	src: url('https://cdn2.hubspot.net/hubfs/3835549/Website%202017/Fonts/alwynnew/alwynnew-rg-webfont.woff2') format('woff2'),
+	  url('https://cdn2.hubspot.net/hubfs/3835549/Website%202017/Fonts/alwynnew/alwynnew-rg-webfont.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'alwyn-bold';
+	src: url('https://cdn2.hubspot.net/hubfs/3835549/Website%202017/Fonts/alwynnew/alwynnew-bd-webfont.woff2') format('woff2'),
+	  url('https://cdn2.hubspot.net/hubfs/3835549/Website%202017/Fonts/alwynnew/alwynnew-bd-webfont.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+  }
+  
+  
+  @font-face {
+	font-family: 'museo';
+	src: url('https://cdn2.hubspot.net/hubfs/3835549/Website%202017/Fonts/museo/Museo700-Regular.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+  }
+  
+
+body,
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+  font-family: 'alwyn-reg';
+  font-size: 16px;
+  h1, h2, h3 {
+    font-family: 'museo';
+  }
+  th, td {
+    font-family: 'alwyn-reg';
+  }
+  .container-fluid {
+    padding: 0;
+  }
+  button {
+    border-width: 0!important;
+    box-shadow: none!important;
+  }
+}
+
+.mat-form-field {
+	width: 100%
+}

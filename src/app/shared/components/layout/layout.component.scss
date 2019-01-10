@@ -1,0 +1,89 @@
+@import 'global';
+
+.sidenav-container {
+  height: 100%;
+}
+
+
+.sidenav {
+  width: 200px;
+  background: $royalblue;
+  height: 100%;
+}
+
+.mat-drawer-content {
+  overflow: hidden !important;
+  overflow-y: auto !important;
+}
+
+.mat-sidenav {
+	.mat-toolbar {
+		color: white;
+		font-size: 25px
+	}
+}
+
+.mat-sidenav-content {
+  .mat-toolbar {
+    background: $royalblue;
+    justify-content: space-between;
+    padding: 0;
+
+    .menu-button {
+	  background-color: $royalblue;
+	  &:hover {
+		background-color: $skyblue;
+	  }
+    }
+
+    .icon-menu {
+      font-size: 26px;
+      color: white;
+	}
+	.toolbar-title {
+		color: white;
+		font-size: 25px
+	}
+  }
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.mat-nav-list {
+  margin-top: 0;
+  padding-top: 0;
+  width: 100%;
+
+  .mat-list-item {
+    padding-left: 32px;
+    font-family: 'alwyn-reg';
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+
+    &:hover {
+      border-left: 4px solid $skyblue;
+    }
+
+    &:hover {
+      background-color: rgba(white, .2);
+    }
+
+    &.active {
+      background-color: darken($royalblue, 5%);
+    }
+  }
+}
+
+.router-link-active {
+  border-left: 4px solid $skyblue;
+}
+
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
